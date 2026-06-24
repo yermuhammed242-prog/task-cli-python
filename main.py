@@ -5,6 +5,7 @@ from datetime import datetime
 
 file_name="taskys.json"
 
+
 def load_tasks(file_name):
     if not os.path.exists(file_name):
         return []
